@@ -19,11 +19,11 @@ Memegle 프로젝트는 곳곳에 성능을 저하시키는 요소들로 가득�
 
 ### 개선 전
 
-<img width=300 src="https://user-images.githubusercontent.com/42052110/131472293-ce371878-497d-4b29-8b1c-f8888992fb02.png">
+<img width=600 src="https://user-images.githubusercontent.com/42052110/131472293-ce371878-497d-4b29-8b1c-f8888992fb02.png">
 
 ### 개선 후
 
-<img width=300 src="https://user-images.githubusercontent.com/42052110/131472537-50b18ac0-bcb5-430b-9010-8f5cfae603e0.png">
+<img width=600 src="https://user-images.githubusercontent.com/42052110/131472537-50b18ac0-bcb5-430b-9010-8f5cfae603e0.png">
 
 ## ✅ 개선 작업 목록
 
@@ -68,7 +68,6 @@ Memegle 프로젝트는 곳곳에 성능을 저하시키는 요소들로 가득�
   - Code Chunking(node modules)
     - framework 관련 파일들(react, react-dom 등)을 우선 분리하고, 나머지는 페이지 별로 분리해줬습니다.
   - React.lazy는 라이브러리 분리가 불가능하다고 하여, loadable components를 이용하기로 했습니다.
-  - ead42d8bc2574028962391c930cfb2421361703b
     ![loadable components](https://user-images.githubusercontent.com/42052110/131474024-15f1655a-8440-4775-bccc-62b13866050d.png)
   - 68.7KB ⇒ 54.7KB
 
@@ -78,7 +77,6 @@ Memegle 프로젝트는 곳곳에 성능을 저하시키는 요소들로 가득�
 - [x] GIPHY의 trending API를 Search 페이지에 들어올 때마다 새로 요청하지 않아야 한다.
   - Context API를 이용해 Trending Gifs를 전역 상태로 저장했습니다.
   - 전역 상태에 Trending Gifs가 저장되어있으면 저장된 값을 갖다 쓰고, 그게 아니면 api 호출을 하도록 했습니다.
-  - e775bf85ebfa8a517eef6900ae2e924805857bf1
     ![code](https://user-images.githubusercontent.com/42052110/131569231-cbb56c76-3e16-4e46-a4ff-475581748150.png)
 
 **4 최소한의 변경만 일으키기**
@@ -88,4 +86,3 @@ Memegle 프로젝트는 곳곳에 성능을 저하시키는 요소들로 가득�
   - 9d3864de2b535ae371bcd897dffa94691a50c422
 - [x] LayoutShift 없이 hover 애니메이션이 일어나야 한다.
   - GifItem에 top 속성 대신 transfrom 속성을 활용하여 애니메이션을 구현했습니다.
-  - 570862b426f8024662a4294e9ed124a979e96403

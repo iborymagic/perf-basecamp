@@ -2,10 +2,11 @@
 
 ### 성능 오답노트 : memegle 프로젝트 성능 개선하기
 
-성능 개선 이전의 샘플 프로젝트 주소:
-[http://frontend-performance-basecamp.s3-website.ap-northeast-2.amazonaws.com](http://frontend-performance-basecamp.s3-website.ap-northeast-2.amazonaws.com)
+## 😎 프로젝트 결과
 
-### 성능 개선 결과 페이지 주소: [https://d3eylkxfsuwzri.cloudfront.net/](https://d3eylkxfsuwzri.cloudfront.net/)
+[성능 개선 이전의 샘플 프로젝트 보러가기](http://frontend-performance-basecamp.s3-website.ap-northeast-2.amazonaws.com)
+
+**성능 개선 결과 보러가기: [https://d3eylkxfsuwzri.cloudfront.net/](https://d3eylkxfsuwzri.cloudfront.net/)**
 
 ## 📕 미션 소개
 
